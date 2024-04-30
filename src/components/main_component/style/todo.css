@@ -1,0 +1,205 @@
+
+@media only screen and (max-width: 425px) {
+
+    .todo{
+        padding: 5px;
+        width:80%;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        padding: 1px 5px;
+        border: 1px solid white;
+        /* background-color: aqua; */
+        /* color: rgb(255, 145, 0); */
+        
+        background-color: white;
+        border-radius: 5px;
+       
+       
+    }
+
+    .threedots{
+        display: flex;
+        gap: 10px;
+        color: gray;
+    }
+
+    .card{
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        border-radius: 10px;
+        padding: 3px 4px 3px;
+        
+    }
+
+    .content{
+        font-size: 24px;
+        width: 80%;
+    }
+    .time p{
+        font-size: 15px;
+    }
+
+    .inprogress{
+        padding: 5px;
+        width:80%; 
+    }
+    .complete{
+        padding: 5px;
+        width:80%; 
+      
+    }
+    .overdue{
+        padding: 5px;
+        width:80%; 
+      
+    }
+    .addtask{
+        padding: 5px;
+        width:80%; 
+      
+    }
+}
+
+
+/* Tablet Layout */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .todo{
+        padding: 5px;
+        width:80%;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        padding: 1px 5px;
+        border: 1px solid white;
+        /* background-color: aqua; */
+        /* color: rgb(255, 145, 0); */
+        
+        background-color: white;
+        border-radius: 5px;
+       
+       
+    }
+
+    .threedots{
+        display: flex;
+        gap: 10px;
+        color: gray;
+    }
+
+    .card{
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        border-radius: 10px;
+        padding: 3px 4px 3px;
+        
+    }
+
+    .content{
+        font-size: 24px;
+        width: 80%;
+    }
+    .time p{
+        font-size: 15px;
+    }
+
+    .inprogress{
+        padding: 5px;
+        width:80%; 
+    }
+    .complete{
+        padding: 5px;
+        width:80%; 
+      
+    }
+    .overdue{
+        padding: 5px;
+        width:80%; 
+      
+    }
+    .addtask{
+        padding: 5px;
+        width:80%; 
+      
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 2560px) {
+.todo{
+    padding: 5px;
+    width:21%;
+}
+.inprogress{
+    padding: 5px;
+    width:21%; 
+}
+.complete{
+    padding: 5px;
+    width:21%; 
+  
+}
+.overdue{
+    padding: 5px;
+    width:21%; 
+  
+}
+.addtask{
+    padding: 5px;
+    width:15%; 
+  
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 5px;
+    border: 1px solid white;
+    /* background-color: aqua; */
+    /* color: rgb(255, 145, 0); */
+    
+    background-color: white;
+    border-radius: 5px;
+   
+   
+}
+.threedots{
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
+
+
+.card{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 10px;
+    padding: 3px 4px 3px;
+    
+}
+.content{
+    font-size: 20px;
+    width: 80%;
+}
+.time p{
+    font-size: 15px;
+}
+}

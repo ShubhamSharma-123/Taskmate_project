@@ -1,0 +1,224 @@
+@media only screen and (max-width: 425px) {
+
+    #taskfilters{
+        display: flex;
+        justify-content:space-between;
+        /* border:1px solid black; */
+        /* padding:0 0 0 10px; */
+    }
+    #filterContainer{
+    padding: 0 5px;
+    display:flex;
+     gap: 10px;
+     flex-wrap:wrap;
+     /* border:1px solid black; */
+     /* min-width: 100px; */
+    }
+    .filter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(153, 153, 153);
+        color: rgb(153, 153, 153);
+        /* height: 28px; */
+        /* width: 75px; */
+        padding: 0 3px;
+        gap: 5px;
+        border-radius: 8px;
+        /* flex-wrap: wrap; */
+        /* padding: 5px 5px 0px 5px; */
+        /* background-color: aqua; */
+    
+    }
+    .tasklist{
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        /* margin: auto; */
+        align-items: center;
+        
+    }
+    .task{
+        margin-top: 10px;
+        font-size: 20px;
+        padding: 0 5px 3px;
+        /* border: 2px solid black; */
+    }
+    
+    #new{
+        border: 1px solid rgb(247, 155, 75);
+        /* height: 27px; */
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 110px; */
+        background-color: rgb(247, 155, 75);
+        color: white;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Tablet Layout */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  #taskfilters{
+    display: flex;
+    justify-content:space-between;
+    /* border:1px solid black; */
+    /* padding:0 0 0 10px; */
+}
+#filterContainer{
+padding: 0 5px;
+display:flex;
+ gap: 10px;
+ flex-wrap:wrap;
+ /* border:1px solid black; */
+ /* min-width: 100px; */
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(153, 153, 153);
+    color: rgb(153, 153, 153);
+    /* height: 28px; */
+    /* width: 75px; */
+    padding: 0 3px;
+    gap: 5px;
+    border-radius: 8px;
+    /* flex-wrap: wrap; */
+    /* padding: 5px 5px 0px 5px; */
+    /* background-color: aqua; */
+
+}
+.tasklist{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* display: inline-block; */
+    display: flex;
+    width: 97%;
+    flex-direction: column;
+    /* margin: auto; */
+    align-items: center;
+    
+}
+.task{
+    margin-top: 10px;
+    font-size: 21px;
+    padding: 0 5px 3px;
+    /* border: 2px solid black; */
+}
+
+#new{
+    border: 1px solid rgb(247, 155, 75);
+    /* height: 27px; */
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 110px; */
+    background-color: rgb(247, 155, 75);
+    color: white;
+    flex-wrap: wrap;
+}
+
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 2560px) {
+    /* .task{
+      height: 55%; 
+       margin-top: 10px;
+  } */
+
+
+  #new{
+      border: 1px solid rgb(247, 155, 75);
+      height: 27px;
+      border-radius: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 110px;
+      background-color: rgb(247, 155, 75);
+      color: white;
+  }
+  .filter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid rgb(153, 153, 153);
+      color: rgb(153, 153, 153);
+      /* height: 28px; */
+      /* width: 75px; */
+      gap: 5px;
+      border-radius: 8px;
+      flex-wrap: wrap;
+      padding: 1px 4px;
+  
+  }
+  #filterContainer{
+    display: flex;
+    gap: 5px;
+  }
+  #taskfilters{
+      display: flex;
+      justify-content:space-between;
+      /* border:3px solid black;  */
+      /* padding:0 0px 20px 0px; */
+  }
+  .tasklist{
+      margin-top: 10px;
+      /* border: 1px solid black; */
+      /* height: 100%; */
+      width: 99.6%;
+      display: flex;
+      gap: 5px;
+      padding: 5px 10px 5px;
+      
+  }
+  
+
+
+
+.task{
+    /* height: 55%; */
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    padding: 0 10px;
+    
+}
+#new{
+    border: 1px solid rgb(247, 155, 75);
+    height: 27px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    background-color: rgb(247, 155, 75);
+    color: white;
+}
+/* .filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(153, 153, 153);
+    color: rgb(153, 153, 153);
+    height: 28px;
+    width: 75px;
+    gap: 5px;
+    border-radius: 8px;
+
+} */
+#taskfilters{
+    display: flex;
+    justify-content:space-between;
+    /* border:1px solid black; */
+    /* padding:0 13px 0 10px; */
+}
+
+
+  }
+
